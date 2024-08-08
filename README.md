@@ -2,41 +2,46 @@
 
 Findtrend-Webflow is a clone of the Findtrend website, created using only HTML and CSS. This project serves as a demonstration of basic web design techniques and responsive layout using pure HTML and CSS.
 
-# Live Demo
-coming soon
+## Author
 
-# Features
-# Responsive Design: 
-The site is designed to be responsive, ensuring it looks great on devices of all sizes.
-# Clean HTML/CSS: 
-Utilizes clean and well-organized HTML and CSS for easy maintenance and understanding.
-# Cross-Browser Compatibility: 
-Tested across modern browsers to ensure consistent appearance and functionality.
+Sherpamilan
 
-# Getting Started
-To get a local copy of this project up and running, follow these steps:
+## Live
 
-# Clone the Repository
- git clone https://github.com/SherpaMilan/Findtrend-Webflow.git
 
-# Navigate to the project directory:
-cd Findtrend-Webflow
-Open the Project
-Open the index.html file in your preferred web browser. 
-This file is the entry point to the website and will render the home page.
+## Features
 
-open index.html
-Or simply double-click on the index.html file to open it in your default browser.
+- Responsive design
+- Clean HTML/CSS
+- Navigation bar
+- Homepage layout
+- Product showcase
+- Footer section
 
-# Project Structure
-index.html: The main HTML file that structures the content of the website.
-styles.css: The CSS file that styles the website.
-# Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure your code adheres to the existing style and includes comments where necessary.
+## Installation
 
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
+To view the project locally, follow these steps:
 
-# Contact
-For any questions or issues, please contact SherpaMilan on GitHub.
+1. Clone the repository:
+    ```bash 
+     git clone https://github.com/SherpaMilan/Findtrend-Webflow.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd Findtrend-Webflow
+    ```
+
+3. Open `index.html` in your web browser to view the website.
+
+## Usage
+
+Simply open the `index.html` file in your web browser to view the Apple website clone.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+
 
