@@ -1,0 +1,656 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+/* first panel  */
+a {
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+.hero-section {
+  height: 900px;
+  position: relative;
+}
+
+.hero-image {
+  background: url(https://i.ibb.co/7vrcBs0/Bg-hero-2.png) no-repeat center
+    center;
+  background-size: cover;
+}
+.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  height: 99px;
+}
+.flex {
+  display: flex;
+}
+.space {
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 29px;
+}
+.vector {
+  width: 40px;
+  height: 40px;
+}
+.findtrend {
+  padding-top: 8px;
+  padding-left: 10px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.white {
+  color: #ffffff;
+}
+.black {
+  color: #000;
+}
+.nav-menus {
+  justify-content: center;
+  width: 488px;
+  padding-top: 40px;
+  gap: 40px;
+}
+
+.nav-button-wrapper {
+  width: 213px;
+  padding-top: 40px;
+}
+.login-btn {
+  width: 44px;
+}
+.register-btn {
+  padding: 12px 32px;
+  border-radius: 40px;
+  background: #ffffff;
+}
+
+.container {
+  width: 700px;
+  height: 337px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero-texts {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 80.64px;
+  text-align: center;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.container p {
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+.hero-btn {
+  top: 10%;
+  left: 35%;
+  position: relative;
+
+  padding: 16px 32px;
+  background: #a8ff35;
+  border-radius: 40px;
+}
+.btn-texts {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: center;
+}
+
+/* second panel */
+.new-tab {
+  height: 742px;
+  background: #a8ff35;
+  position: relative;
+}
+.container1 {
+  width: 854px;
+  height: 462px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*    moves the element back by half of its own width and height, effectively centering the element within its parent. x and y axis */
+  transform: translate(-50%, -50%);
+}
+.heading {
+  width: 100%;
+  height: 86px;
+  color: #000000;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 85.54px;
+  text-align: center;
+}
+
+.rectangle {
+  background: #f5f5f5;
+  width: 502px;
+  height: 202px;
+  border-radius: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rectangle1 {
+  background: black;
+  width: 340px;
+  height: 82px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.faded-rectangle {
+  width: 84.65px;
+  height: 82px;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
+}
+.cross {
+  width: 15.87px;
+  height: 15.87px;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.frame {
+  width: 277.74px;
+  height: 31.74px;
+  gap: 15.87px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.vector2 {
+  width: 31.74px;
+  height: 31.74px;
+}
+.findtrend2 {
+  width: 230px;
+  height: 28px;
+
+  font-size: 23.81px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: center;
+}
+.elon-text {
+  font-family: Roboto;
+  font-size: 23.81px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: center;
+}
+.solution {
+  width: 690px;
+  height: 54px;
+
+  top: 70%;
+  left: 60px;
+  position: relative;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+.new-tab1 {
+  height: 742px;
+  position: relative;
+}
+
+.longtext-section {
+  width: 1160px;
+  height: 304px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.l-texts {
+  width: 1160px;
+  height: 76px;
+  color: #000000;
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 76.03px;
+  text-align: left;
+}
+.gray {
+  color: #adadad;
+}
+
+.partner-section {
+  width: 1160px;
+  height: 732px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.partner-heading {
+  width: 1160px;
+  height: 76px;
+  padding-bottom: 80px;
+  color: #000000;
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 76.03px;
+  text-align: center;
+}
+
+.brands {
+  height: 576px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  padding-bottom: 60px;
+}
+
+.box {
+  position: relative;
+  height: 120px;
+  flex-grow: 1;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.brand-img-position {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.microsoft-image {
+  width: 190px;
+  height: 40px;
+}
+.allianz-image {
+  width: 156px;
+  height: 40px;
+}
+.upWork-image {
+  width: 146px;
+  height: 44px;
+}
+.volvo-image {
+  width: 174px;
+  height: 24px;
+}
+
+.grab-image {
+  width: 112px;
+  height: 44px;
+}
+.verizon-image {
+  width: 162px;
+  height: 36px;
+}
+.coinbase-image {
+  width: 148px;
+  height: 32px;
+}
+.expedia-image {
+  width: 151px;
+  height: 44px;
+}
+.airtable-image {
+  width: 182px;
+  height: 40px;
+}
+.magento-image {
+  width: 164px;
+  height: 48px;
+}
+.careera-image {
+  width: 174px;
+  height: 42px;
+}
+.bonanza-image {
+  width: 160px;
+  height: 28px;
+}
+.wetransfer-image {
+  width: 176px;
+  height: 38px;
+}
+
+.suzuki-image {
+  width: 178px;
+  height: 34px;
+}
+.algolia-image {
+  width: 162px;
+  height: 40px;
+}
+.heinekin-image {
+  width: 190px;
+  height: 34px;
+}
+
+.platforms {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 60px;
+  padding: 60px;
+  background: #fafafa;
+}
+
+.platfrom-heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.03px;
+
+  height: 76px;
+}
+
+.socials {
+  height: 124px;
+  gap: 24px;
+}
+.square {
+  position: relative;
+  width: 124px;
+  height: 124px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.shape {
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.green {
+  background: #a8ff35;
+}
+
+.tweets {
+  box-sizing: border-box;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.trend-button {
+  width: 198px;
+  height: 57px;
+  border-radius: 40px;
+  background: #000000;
+}
+.trend-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+}
+
+.deals {
+  height: 1128px;
+  background: #000000;
+  padding: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-sizing: border-box;
+}
+.deal-h1 {
+  height: 76px;
+
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.03px;
+  text-align: center;
+  color: #ffffff;
+}
+.time-section {
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.calendar-plan {
+  height: 29px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.outline {
+  width: 104px;
+  height: 52px;
+  background: #ffffff;
+  border-radius: 99px;
+}
+.toggle {
+  width: 36px;
+  height: 36px;
+  background: #a8ff35;
+  border-radius: 99px;
+  margin-top: 8px;
+  margin-left: 6px;
+  box-sizing: border-box;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.membership-boxes {
+  display: flex;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.membership-options {
+  width: 360px;
+  height: 640px;
+  padding: 30px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+
+.color-white {
+  background: #fafafa;
+}
+.color-green {
+  background: #a8ff35;
+}
+
+hr {
+  width: 296px;
+  opacity: 0.2px;
+  border: 1px solid #000000;
+  margin-top: 30px;
+}
+
+.free-trial {
+  width: 296px;
+  height: 58px;
+  border: none;
+  border-radius: 29px;
+  background: #a8ff35;
+}
+.bg-black {
+  background: #000000;
+}
+.free-trial .text-white {
+  color: #ffffff;
+}
+
+.free-trial a {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: center;
+}
+.tickbox {
+  width: 24px;
+  height: 24px;
+
+  padding: 7.5px 5px;
+}
+.tick {
+  width: 14px;
+  height: 9px;
+}
+.title {
+  color: #000000;
+
+  font-size: 36px;
+  font-weight: 510;
+  line-height: 36px;
+  text-align: left;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.dollar {
+  font-size: 64px;
+  font-weight: 510;
+  line-height: 64px;
+}
+.month {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.points {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.li-content {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.bottom {
+  /* this will push the content to end of container while the parent is flex */
+  margin-top: auto;
+}
+
+.join-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 539px;
+  background: #a8ff35;
+}
+
+.join-texts {
+
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 80.64px;
+}
+.gray-texts{
+
+  
+    font-size: 72.5px;
+  font-weight: 900;
+  line-height: 80.64px;
+   color: #adadad;
+}
+
+.mt-40{
+  margin-top:40px;
+}
+
+.footer{
+height: 100px;
+  max-width:1440px;
+  align-items:center;
+  margin:0 auto;
+
+}
+.left{
+
+height: 41px;
+
+}
+.black-logo{
+  width:40px;
+  height:40px;
+}
+
+.footer-findtrend{
+align-items:center;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+padding-left:5px;
+position:relative;
+top:-10px;
+
+}
+
+.typography{
+
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+color:#000000;
+margin-left:18px;
+}
