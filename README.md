@@ -2,24 +2,28 @@
 
 Findtrend-Webflow is a clone of the Findtrend website, created using only HTML and CSS. This project serves as a demonstration of basic web design techniques and responsive layout using pure HTML and CSS.
 
-Live Demo
+# Live Demo
 coming soon
 
 # Features
-# Responsive Design: The site is designed to be responsive, ensuring it looks great on devices of all sizes.
-# Clean HTML/CSS: Utilizes clean and well-organized HTML and CSS for easy maintenance and understanding.
-# Cross-Browser Compatibility: Tested across modern browsers to ensure consistent appearance and functionality.
+# Responsive Design: 
+The site is designed to be responsive, ensuring it looks great on devices of all sizes.
+# Clean HTML/CSS: 
+Utilizes clean and well-organized HTML and CSS for easy maintenance and understanding.
+# Cross-Browser Compatibility: 
+Tested across modern browsers to ensure consistent appearance and functionality.
 
 # Getting Started
 To get a local copy of this project up and running, follow these steps:
 
 # Clone the Repository
-Clone the repository using Git: git clone https://github.com/SherpaMilan/Findtrend-Webflow.git
+ git clone https://github.com/SherpaMilan/Findtrend-Webflow.git
 
 # Navigate to the project directory:
 cd Findtrend-Webflow
 Open the Project
-Open the index.html file in your preferred web browser. This file is the entry point to the website and will render the home page.
+Open the index.html file in your preferred web browser. 
+This file is the entry point to the website and will render the home page.
 
 open index.html
 Or simply double-click on the index.html file to open it in your default browser.
