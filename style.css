@@ -41,6 +41,8 @@ a {
 }
 .logo {
   padding-top: 29px;
+  padding-left:50px;
+  box-sizing:border-box;
 }
 .vector {
   width: 40px;
@@ -69,8 +71,10 @@ box-sizing:border-box;
 }
 
 .nav-button-wrapper {
-  width: 213px;
+  gap:30px;
   padding-top: 40px;
+  padding-left:40px;
+ box-sizing:border-box;
 }
 
 .register-btn {
@@ -78,6 +82,18 @@ box-sizing:border-box;
   box-sizing:border-box;
   border-radius: 40px;
   background: #ffffff;
+}
+
+.ham-div{
+  display:none;
+ 
+
+}
+
+.hamburger-icon{
+  width:30px;
+  height:30px;
+
 }
 
 .container {
@@ -120,7 +136,7 @@ box-sizing:border-box;
 .btn-texts {
   color: #000000;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 25.2px;
   text-align: center;
 }
@@ -129,6 +145,7 @@ box-sizing:border-box;
   height: 742px;
   background: #a8ff35;
   position: relative;
+
 }
 .container1 {
   width: 854px;
@@ -232,6 +249,7 @@ box-sizing:border-box;
   height: 742px;
   position: relative;
 
+
  
 }
 
@@ -258,7 +276,8 @@ box-sizing:border-box;
 }
 
 .partner-section {
-  width: 1160px;
+
+  width:940px;
   height: 732px;
   position: absolute;
   bottom: 10%;
@@ -267,7 +286,6 @@ box-sizing:border-box;
 }
 
 .partner-heading {
-
   height: 76px;
   padding-bottom: 80px;
   color: #000000;
@@ -321,11 +339,12 @@ box-sizing:border-box;
 }
 
 .platfrom-heading {
-  font-size: 64px;
+    color: #000000;
+  font-size: 59px;
   font-weight: 700;
   line-height: 76.03px;
+  text-align: center;
 
-  height: 76px;
 }
 
 .socials {
@@ -384,7 +403,7 @@ box-sizing:border-box;
 .deal-h1 {
   height: 76px;
 
-  font-size: 64px;
+  font-size: 59px;
   font-weight: 700;
   line-height: 76.03px;
   text-align: center;
@@ -481,12 +500,17 @@ hr {
 .tickbox {
   width: 24px;
   height: 24px;
-
   padding: 7.5px 5px;
+  
 }
 .tick {
+ 
   width: 14px;
   height: 9px;
+}
+
+.text222{
+   flex: 1;
 }
 .title {
   color: #000000;
@@ -524,10 +548,12 @@ hr {
 }
 .li-content {
   margin-top: 25px;
+/*   margin-left:20px; */
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
+
 }
 
 .bottom {
@@ -568,6 +594,9 @@ hr {
   height: 100px;
   align-items: center;
 }
+.footer-space{
+  justify-content:space-between;
+}
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -605,6 +634,9 @@ hr {
     justify-content:center;
     gap:30px;
   }
+  .nav-menus{
+    padding-left:14px;
+  }
   
   .longtext-section{
   max-width:950px;
@@ -612,8 +644,9 @@ hr {
   }
   .l-texts {
     font-size:55px;
+
   }
-  
+
 
   .square{
     width:77px;
@@ -629,26 +662,123 @@ hr {
   .company-image{
     width:134px;
   }
+  
   .membership-boxes {
   gap: 14px;
 }
- 
   .membership-options{
       width: 340px;
   }
-  .free-trial{
-    width:100%;
+  
 
+.footer-space{
+  padding-left:60px;
+  box-sizing:border-box;
+  justify-content:space-evenly;
+  gap:132px;
   }
-
 
   
 }
 
 @media (max-width: 1086px){
-  .nav-menus{
-    display:none;
+  .ham-div{
+margin-top:-8px;
+    padding-right:60px;
+    box-sizing:border-box;
   }
+  .nav-menus{
+      display:none;
+  }
+  
+/* Hides all direct child div elements of .nav-button-wrapper that do not have the ham-div class using display: none;. */
+   .nav-button-wrapper > div:not(.ham-div) {
+                display: none;
+            }
+  
+ /* Show the .ham-div element */
+  .nav-button-wrapper .ham-div {
+                display: block; 
+             
+              
+  
+            }
+
+  .space{
+      justify-content:space-evenly;
+        gap: 390px;
+ 
+  }
+  .free-trial{
+    width:100%;
+
+  }
+  
+
+
+  .membership-boxes {
+  gap: 10px;
+}
+ 
+  .membership-options{
+      width: 298px;
+  }
+  .longtext-section{
+    width:940px;
+    height:380px;
+
+  }
+  .l-texts{
+
+        font-size:48px;
+  }
+}
+
+@media (max-width: 971px){
+  .container {
+  width: 666px;
+    
+  }
+  .longtext-section{
+       width:728px;
+    
+  }
+  .l-texts{
+        font-size:43px;
+  }
+  .platfrom-heading, 
+  .socials, 
+  .container1{
+        width:728px;
+  }
+  .l-texts{
+
+     white-space: nowrap;
+  }
+
+
+  .deals{
+    height:2213px;
+    align-items: center;
+    display:flex;
+
+  }
+  .membership-boxes {
+width:360px;
+ height:1781px;
+ flex-direction:column;
+    
+}
+ 
+  .membership-options{
+  width:360px;
+ height:650px;
+    
+  }
+  .footer-space{
+    gap:10px;
+  }
+  
 }
 @media (max-width: 767px){
   
@@ -656,13 +786,5 @@ hr {
   
   
   
-  
-  
-/* .left, .right{
-    display:flex;
-    background: blue;
-    flex-direction:column;
-   justify-content:center;
-   gap:10px;
-  } */
+ 
 }
