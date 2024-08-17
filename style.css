@@ -248,6 +248,7 @@ a {
   width: 1160px;
   position: absolute;
   top: 40%;
+
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -261,10 +262,16 @@ a {
   color: #adadad;
 }
 
+.partner-container {
+  height: 742px;
+  position: relative;
+}
+
 .partner-section {
   width: 940px;
   position: absolute;
   bottom: 10%;
+
   left: 50%;
   transform: translateX(-50%);
   padding-left: 20px;
@@ -611,7 +618,6 @@ hr {
   }
 
   .container {
-    background: red;
     width: 620px;
   }
 
@@ -731,6 +737,7 @@ hr {
   .socials {
     width: 100%;
     overflow-x: scroll;
+    
   }
 
   .square {
@@ -740,6 +747,10 @@ hr {
 @media (max-width: 767px) {
   .space {
     gap: 200px;
+  }
+
+  .ham-div {
+    padding-right: 2px;
   }
 
   .join-texts,
@@ -764,7 +775,7 @@ hr {
   }
 
   .container {
-    width: 470px;
+    width: 100%;
   }
 
   .heading {
@@ -788,6 +799,52 @@ hr {
   }
 }
 
-/*   .box{
-      width: calc(50% - 20px );
-  } */
+@media (max-width: 479px) {
+  .space {
+    gap: 100px;
+  }
+  .longtext-section {
+    top: 50%;
+  }
+  .l-texts {
+    font-size: 44px;
+  }
+  .rectangle {
+    width: 365px;
+    height:150px;
+  }
+
+  .partner-container {
+    height: 1350px;
+  }
+  .partner-section {
+    bottom: 1%;
+  }
+
+  .partner-heading,
+  .platfrom-heading {
+    font-size: 42px;
+  }
+
+  .brands {
+    zoom: 100%;
+    padding-top: 40px;
+    padding-bottom: 2px;
+  }
+
+  .box {
+    width: calc(50% - 20px);
+  }
+
+  .join-texts,
+  .gray-texts,
+  .hero-texts,
+  .heading {
+    font-size: 46px;
+  }
+  .solution{
+      font-size: 22px;
+  }
+}
+
+
