@@ -1,6 +1,6 @@
 * {
   font-family: "Gupter", serif;
-  /*       font-family: effra, sans-serif; */
+/*         font-family: effra, sans-serif; */
   margin: 0;
   padding: 0;
 }
@@ -96,6 +96,7 @@ a {
 
   position: absolute;
   top: 20%;
+
   left: 50%;
   transform: translateX(-50%);
 }
@@ -163,6 +164,29 @@ a {
   text-align: center;
 }
 
+.arrow-group{
+  width: 99px;
+height: 67.41px;
+background: blue;
+
+}
+.arrow{
+  width: 28.39px;
+height: 34.45px;
+
+}
+.you-text{
+  width: 93px;
+ height: 24px;
+
+rotate: -6deg;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: center;
+color: #000000;
+
+}
 .rectangle {
   background: #f5f5f5;
   width: 502px;
@@ -175,6 +199,7 @@ a {
 }
 .rectangle1 {
   background: black;
+
   width: 340px;
   height: 82px;
   position: absolute;
@@ -182,20 +207,65 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+  .rectangle1-copy {
+  background: #181818;
+
+width: 293.04px;
+height: 70.42px;
+rotate:-4deg;
+
+  position: absolute;
+  top: 114%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.8);
+
+  display:none;    
+ }  
+
+
+
 .faded-rectangle {
+
   width: 84.65px;
   height: 82px;
   right: 0;
   position: absolute;
   background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
+  background: linear-gradient(270deg, #181818 53.65%, rgba(3, 3, 3, 0.6) 100%);
+
 }
+.faded-rectangle-copy {
+
+  width: 80px;
+height: 70.42px;
+  
+  right: 0;
+  position: absolute;
+ 
+  background: linear-gradient(270deg, #181818 53.65%, rgba(3, 3, 3, 0.6) 100%);
+
+}
+
 .cross {
   width: 15.87px;
   height: 15.87px;
+
   position: absolute;
   top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
+}
+.cross-copy {
+  width: 15.87px;
+  height: 15.87px;
+  rotate:-4deg;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+
 }
 
 .frame {
@@ -209,24 +279,76 @@ a {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.frame-copy {
+   width: 257.75px;
+  height: 27.26px;
+  gap: 18.1px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
 .vector2 {
   width: 31.74px;
   height: 31.74px;
 }
-.findtrend2 {
-  width: 230px;
-  height: 28px;
+.vector2-copy {
+width: 27.26px;
+height: 27.26px;
 
-  font-size: 23.81px;
-  font-weight: 400;
-  line-height: 27.9px;
-  text-align: center;
+rotate: -4deg;
+
 }
+
+
+
+.z-1{
+  z-index:1;
+    rotate:4deg;
+
+}
+.z-2{
+  z-index:2;
+}
+.z-3{
+  z-index:3;
+    rotate:1.5deg;
+}
+.z-4{
+  z-index:4;
+}
+
+.top-140{
+    top: 140%;
+}
+
+.top-156{
+    top: 156%;
+}
+
+.top-184{
+    top: 184%;
+}
+
+
+
 .elon-text {
   font-size: 23.81px;
   font-weight: 400;
   line-height: 27.9px;
   text-align: center;
+}
+.elon-text-copy {
+  font-size: 23.47px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: center;
+
 }
 .solution {
   font-weight: 500;
@@ -609,6 +731,8 @@ hr {
 }
 
 @media (max-width: 1279px) {
+  
+
   .space {
     justify-content: center;
     gap: 30px;
@@ -655,6 +779,11 @@ hr {
     justify-content: space-evenly;
     gap: 132px;
   }
+   .tweets {
+    width: 100%;
+  }
+  
+  
 }
 
 @media (max-width: 1086px) {
@@ -770,9 +899,7 @@ hr {
   .rectangle {
     width: 470px;
   }
-  .tweets {
-    width: 100%;
-  }
+
 
   .container {
     width: 100%;
@@ -842,9 +969,99 @@ hr {
   .heading {
     font-size: 46px;
   }
+  .deal-h1{
+    font-size:45px;
+  }
   .solution{
       font-size: 22px;
   }
 }
+
+@media (max-width: 375px){
+  .logo {
+    padding-left:0;
+  }
+  .space{
+    gap:230px;
+  }
+  .findtrend{
+    display:none;
+  }
+  .container {
+  top:16%;
+  }
+ 
+  .hero-texts{
+ font-size: 36px;
+    height:50px;
+  }
+  .container p {
+
+  font-size: 16px;
+    width:320px;
+    margin-left:30px;
+    
+}
+  .hero-btn{
+
+padding: 12px 24px;
+  
+  }
+  .btn-texts{
+    font-size:16px;
+  }
+  
+  .rectangle1 {
+
+  top: 114%;
+  }
+  .rectangle1-copy {
+    display:block;
+  }
+  
+    .heading {
+    font-size: 38px;
+    width: 100%;
+  }
+  
+  .rectangle{
+    height:118px;
+    width:339px;
+
+    
+  }
+  .rectangle1{
+
+    width: 291px;
+    height: 69.93px;   
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+  }
+  .faded-rectangle{
+    width: 72.19px;
+height: 69.93px;
+
+
+  }
+  .frame{
+    max-width:237px;
+    max-height:27px;
+    gap:13px;
+  }
+  .elon-text{
+    font-size:20px;
+  }
+  
+  
+  .arrow,
+  .you-text{
+    display:block;
+  }
+  
+}
+
 
 
