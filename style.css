@@ -1,4 +1,4 @@
-* {
+\* {
   font-family: "Gupter", serif;
   /*         font-family: effra, sans-serif; */
   margin: 0;
@@ -131,8 +131,8 @@ a {
 }
 .btn-texts {
   color: #000000;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 19px;
+  font-weight: 900;
   line-height: 25.2px;
   text-align: center;
 }
@@ -398,8 +398,7 @@ a {
 .partner-section {
   width: 940px;
   position: absolute;
-  bottom: 20%;
-
+  bottom: 14%;
   left: 50%;
   transform: translateX(-50%);
   padding-left: 20px;
@@ -421,7 +420,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding-bottom: 60px;
   box-sizing: border-box;
 }
 
@@ -498,12 +496,14 @@ a {
   height: 57px;
   border-radius: 40px;
   background: #000000;
+  border-style: none;
 }
 .view-button {
   width: 198px;
   height: 57px;
   border-radius: 40px;
   background: #000000;
+  border-style: none;
 }
 .trend-text {
   color: #ffffff;
@@ -950,7 +950,7 @@ hr {
 
   .footer {
     flex-direction: column;
-         padding: 0;
+    padding: 0;
   }
   .left {
     margin: 40px auto;
@@ -966,10 +966,18 @@ hr {
 
 @media (max-width: 479px) {
   .space {
-    gap: 100px;
+    gap: 160px;
+  }
+  .logo {
+    padding-left: 10px;
+  }
+
+  .container p {
+    padding: 0 10px;
+    box-sizing: border-box;
   }
   .longtext-section {
-    top: 50%;
+    top: 30%;
   }
   .l-texts {
     font-size: 44px;
@@ -995,6 +1003,7 @@ hr {
     zoom: 100%;
     padding-top: 40px;
     padding-bottom: 2px;
+    box-sizing: border-box;
   }
 
   .box {
@@ -1012,10 +1021,14 @@ hr {
   }
   .solution {
     font-size: 22px;
+
+    padding-left: 9px;
+    padding-right: 9px;
+    box-sizing: border-box;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .logo {
     padding-left: 0;
   }
@@ -1035,22 +1048,16 @@ hr {
   }
   .container p {
     font-size: 16px;
-    width: 320px;
-    margin-left: 20px;
+    margin-top: 32px;
+    height: 30px;
   }
+
   .hero-btn {
-    padding: 12px 24px;
+    left: 29%;
+    top: 18%;
   }
   .btn-texts {
-    font-size: 16px;
-  }
-    .elon-text-copy{
-
-font-size: 20.44px;
-font-weight: 400;
-line-height: 23.96px;
-text-align: center;
-
+    font-size: 18px;
   }
 
   .rectangle1 {
@@ -1058,6 +1065,13 @@ text-align: center;
   }
   .rectangle1-copy {
     display: block;
+  }
+
+  .elon-text-copy {
+    font-size: 20.44px;
+    font-weight: 400;
+    line-height: 23.96px;
+    text-align: center;
   }
 
   .new-tab {
@@ -1177,20 +1191,6 @@ text-align: center;
     height: 86px;
     font-size: 36px;
     line-height: 42.77px;
-  }
-
-  .socials {
-    height: 64px;
-    gap: 10px;
-  }
-  .square {
-    width: 64px;
-    height: 64px;
-  }
-
-  .shape {
-    width: 31px;
-    height: 31px;
   }
 
   .deals {
